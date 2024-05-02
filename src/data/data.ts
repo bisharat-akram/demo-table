@@ -1,3 +1,4 @@
+// This files holds dummy users data as of now there is no db connectivity
 export const usersData = [
     {
         name: 'Basharat',

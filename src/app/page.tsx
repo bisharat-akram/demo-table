@@ -20,6 +20,7 @@ interface TableDataInterface {
   hourlyRate: number,
 }
 
+// This component shows the table with sorting and pagination
 export default function DataTable() {
   const [isLoading, setIsLoading] = React.useState<boolean>(true)
   const [tableData, setTableData] = React.useState<TableDataInterface[]>([])

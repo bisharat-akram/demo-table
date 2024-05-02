@@ -7,6 +7,8 @@ type ResponseData = {
     totalPages: number;
 };
 
+// This is the api to return users data to frontend
+
 export default function handler(
     req: NextApiRequest,
     res: NextApiResponse<ResponseData>
